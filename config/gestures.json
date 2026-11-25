@@ -1,0 +1,16 @@
+{
+  "THUMBS_UP":   {"action": "CLOSE_ALL_APPS",       "hold_seconds": 1.0, "mode": "NORMAL",        "enabled": true},
+  "THUMBS_DOWN": {"action": "CLOSE_WINDOW",         "hold_seconds": 1.0, "mode": "NORMAL",        "enabled": true},
+  "FIST":        {"action": "SLEEP",                "hold_seconds": 2.0, "mode": "NORMAL",        "enabled": true},
+  "OPEN_PALM":   {"action": "TOGGLE_OVERLAY",       "hold_seconds": 1.0, "mode": "NORMAL",        "enabled": true},
+  "PEACE":       {"action": "ENTER_BROWSER_MODE",   "hold_seconds": 1.0, "mode": "NORMAL",        "enabled": true},
+  "INDEX_THUMB": {"action": "ENTER_SWITCH_WINDOW",  "hold_seconds": 1.0, "mode": "NORMAL",        "enabled": true},
+  "POINT_UP":    {"action": "SCROLL_UP",            "hold_seconds": 0.3, "mode": "NORMAL",        "enabled": true},
+  "POINT_DOWN":  {"action": "SCROLL_DOWN",          "hold_seconds": 0.3, "mode": "NORMAL",        "enabled": true},
+  "POINT_RIGHT": {"action": "NEXT_WINDOW_OR_TAB",   "hold_seconds": 1.0, "mode": "ANY",           "enabled": true},
+  "POINT_LEFT":  {"action": "PREVIOUS_WINDOW_OR_TAB","hold_seconds": 1.0, "mode": "ANY",          "enabled": true},
+  "OK":          {"action": "ENTER_OR_CONFIRM",     "hold_seconds": 1.0, "mode": "ANY",           "enabled": true},
+  "ROCK":        {"action": "PLAY_PAUSE",           "hold_seconds": 1.0, "mode": "NORMAL",        "enabled": true},
+  "SHAKA":       {"action": "ENTER_VOLUME_MODE",    "hold_seconds": 1.0, "mode": "NORMAL",        "enabled": true},
+  "ILY":         {"action": "ESCAPE",               "hold_seconds": 1.0, "mode": "ANY",           "enabled": true}
+}

@@ -1,0 +1,239 @@
+{
+  "switch window": {
+    "type": "SWITCH_WINDOW",
+    "requires_confirmation": false,
+    "description": "Open the Windows window switcher",
+    "keys": "alt+tab"
+  },
+  "task view": {
+    "type": "TASK_VIEW",
+    "requires_confirmation": false,
+    "description": "Open Task View (Win+Tab)",
+    "keys": "win+tab"
+  },
+  "minimize": {
+    "type": "MINIMIZE",
+    "requires_confirmation": false,
+    "description": "Minimize the foreground window"
+  },
+  "maximize": {
+    "type": "MAXIMIZE",
+    "requires_confirmation": false,
+    "description": "Maximize the foreground window"
+  },
+  "close window": {
+    "type": "CLOSE_WINDOW",
+    "requires_confirmation": true,
+    "description": "Ask the foreground window to close"
+  },
+  "fullscreen": {
+    "type": "FULLSCREEN",
+    "requires_confirmation": false,
+    "description": "Send F11 to the foreground window",
+    "keys": "f11"
+  },
+  "show desktop": {
+    "type": "SHOW_DESKTOP",
+    "requires_confirmation": false,
+    "description": "Show the desktop (Win+D)",
+    "keys": "win+d"
+  },
+  "next window": {
+    "type": "NEXT_WINDOW",
+    "requires_confirmation": false,
+    "description": "Alt+Tab to the next window",
+    "keys": "alt+tab"
+  },
+  "previous window": {
+    "type": "PREVIOUS_WINDOW",
+    "requires_confirmation": false,
+    "description": "Alt+Shift+Tab to the previous window",
+    "keys": "alt+shift+tab"
+  },
+  "new tab": {
+    "type": "NEW_TAB",
+    "requires_confirmation": false,
+    "description": "Browser only: Ctrl+T",
+    "keys": "ctrl+t"
+  },
+  "close tab": {
+    "type": "CLOSE_TAB",
+    "requires_confirmation": false,
+    "description": "Browser only: Ctrl+W",
+    "keys": "ctrl+w"
+  },
+  "next tab": {
+    "type": "NEXT_TAB",
+    "requires_confirmation": false,
+    "description": "Browser only: Ctrl+Tab",
+    "keys": "ctrl+tab"
+  },
+  "previous tab": {
+    "type": "PREVIOUS_TAB",
+    "requires_confirmation": false,
+    "description": "Browser only: Ctrl+Shift+Tab",
+    "keys": "ctrl+shift+tab"
+  },
+  "refresh": {
+    "type": "REFRESH",
+    "requires_confirmation": false,
+    "description": "Browser only: F5",
+    "keys": "f5"
+  },
+  "back": {
+    "type": "BACK",
+    "requires_confirmation": false,
+    "description": "Browser only: Alt+Left",
+    "keys": "alt+left"
+  },
+  "forward": {
+    "type": "FORWARD",
+    "requires_confirmation": false,
+    "description": "Browser only: Alt+Right",
+    "keys": "alt+right"
+  },
+  "scroll up": {
+    "type": "SCROLL_UP",
+    "requires_confirmation": false,
+    "description": "Browser only: mouse wheel up"
+  },
+  "scroll down": {
+    "type": "SCROLL_DOWN",
+    "requires_confirmation": false,
+    "description": "Browser only: mouse wheel down"
+  },
+  "page up": {
+    "type": "PAGE_UP",
+    "requires_confirmation": false,
+    "description": "Browser only: Page Up",
+    "keys": "pageup"
+  },
+  "page down": {
+    "type": "PAGE_DOWN",
+    "requires_confirmation": false,
+    "description": "Browser only: Page Down",
+    "keys": "pagedown"
+  },
+  "go to top": {
+    "type": "GO_TO_TOP",
+    "requires_confirmation": false,
+    "description": "Browser only: Home",
+    "keys": "home"
+  },
+  "go to bottom": {
+    "type": "GO_TO_BOTTOM",
+    "requires_confirmation": false,
+    "description": "Browser only: End",
+    "keys": "end"
+  },
+  "volume up": {
+    "type": "VOLUME_UP",
+    "requires_confirmation": false,
+    "description": "Raise volume by 2%"
+  },
+  "volume down": {
+    "type": "VOLUME_DOWN",
+    "requires_confirmation": false,
+    "description": "Lower volume by 2%"
+  },
+  "mute": {
+    "type": "MUTE",
+    "requires_confirmation": false,
+    "description": "Toggle mute"
+  },
+  "pause media": {
+    "type": "PAUSE_MEDIA",
+    "requires_confirmation": false,
+    "description": "Send the play/pause media key (toggle)"
+  },
+  "play media": {
+    "type": "PLAY_MEDIA",
+    "requires_confirmation": false,
+    "description": "Send the play/pause media key (toggle)"
+  },
+  "screenshot": {
+    "type": "SCREENSHOT",
+    "requires_confirmation": false,
+    "description": "Win+PrintScreen"
+  },
+  "lock screen": {
+    "type": "LOCK_SCREEN",
+    "requires_confirmation": false,
+    "description": "Lock the workstation"
+  },
+  "sleep": {
+    "type": "SLEEP",
+    "requires_confirmation": false,
+    "description": "Sleep after a 3-second cancellable countdown"
+  },
+  "shut down": {
+    "type": "SHUTDOWN",
+    "requires_confirmation": true,
+    "description": "Shut down in 60 s after confirmation"
+  },
+  "restart": {
+    "type": "RESTART",
+    "requires_confirmation": true,
+    "description": "Restart in 60 s after confirmation"
+  },
+  "close all apps": {
+    "type": "CLOSE_ALL_APPS",
+    "requires_confirmation": true,
+    "description": "Send WM_CLOSE to all open windows"
+  },
+  "pause": {
+    "type": "MODE_PAUSE",
+    "requires_confirmation": false,
+    "description": "Pause microphone, camera and gestures"
+  },
+  "resume": {
+    "type": "MODE_RESUME",
+    "requires_confirmation": false,
+    "description": "Return to the last active mode"
+  },
+  "voice only": {
+    "type": "MODE_VOICE_ONLY",
+    "requires_confirmation": false,
+    "description": "Voice on, camera off"
+  },
+  "gesture only": {
+    "type": "MODE_GESTURE_ONLY",
+    "requires_confirmation": false,
+    "description": "Camera on, microphone closed"
+  },
+  "hybrid": {
+    "type": "MODE_HYBRID",
+    "requires_confirmation": false,
+    "description": "Voice and camera both on"
+  },
+  "confirm": {
+    "type": "CONFIRM",
+    "requires_confirmation": false,
+    "description": "Only while a confirmation is pending"
+  },
+  "cancel": {
+    "type": "CANCEL",
+    "requires_confirmation": false,
+    "description": "Only while a confirmation is pending"
+  },
+  "escape": {
+    "type": "ESCAPE",
+    "requires_confirmation": false,
+    "description": "Cancel pending confirmation / leave gesture mode"
+  },
+  "wake word mode": {
+    "type": "LISTEN_WAKE_WORD",
+    "requires_confirmation": false,
+    "description": "Listen mode: wake word"
+  },
+  "always listen": {
+    "type": "LISTEN_ALWAYS",
+    "requires_confirmation": false,
+    "description": "Listen mode: always"
+  },
+  "push to talk": {
+    "type": "LISTEN_PUSH_TO_TALK",
+    "requires_confirmation": false,
+    "description": "Listen mode: push to talk"
+  }
+}

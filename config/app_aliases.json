@@ -1,0 +1,8 @@
+[
+  {"name": "VS Code", "aliases": ["Visual Studio Code", "Code Editor"], "target": "", "kind": "exe", "arguments": ""},
+  {"name": "Claude", "aliases": [], "target": "", "kind": "exe", "arguments": ""},
+  {"name": "Calculator", "aliases": ["Calc"], "target": "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App", "kind": "uwp", "arguments": ""},
+  {"name": "Telegram", "aliases": ["Telegram Desktop"], "target": "", "kind": "exe", "arguments": ""},
+  {"name": "ChatGPT", "aliases": ["ChatGPT Desktop"], "target": "", "kind": "exe", "arguments": ""},
+  {"name": "ChatGPT Classic", "aliases": [], "target": "", "kind": "url", "arguments": ""}
+]
